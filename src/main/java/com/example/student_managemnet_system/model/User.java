@@ -15,6 +15,9 @@ public class User {
     private String lastname;
     private String email;
 
+    public User() {
+    }
+
     public String getRegistrationnumber() {
         return registrationnumber;
     }
