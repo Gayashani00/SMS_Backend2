@@ -23,10 +23,10 @@ public class UserTest {
 
     @Mock
     private UserRepository userRepository;
-//database ek adala nethuw mock krnw virtual databadsde ekk wge locally
+//Mock is a method we use as a virtual database
     @InjectMocks
     private UserController userController;
-//userrepo eke wena mock tik inject wenne
+
     @BeforeEach
     public void setup() {
         MockitoAnnotations.initMocks(this);
