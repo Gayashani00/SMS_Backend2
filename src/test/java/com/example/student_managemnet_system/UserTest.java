@@ -90,10 +90,10 @@ public class UserTest {
     public void testGetUserById() {
         User user = new User();
         user.setId(1L);
-        user.setRegistrationnumber("12345");
-        user.setFirstname("John");
-        user.setLastname("Doe");
-        user.setEmail("john.doe@example.com");
+        user.setRegistrationnumber("D/BCS/21/0001");
+        user.setFirstname("Methuja");
+        user.setLastname("Anthony");
+        user.setEmail("muthu@gmail.com");
 
         when(userRepository.findById(anyLong())).thenReturn(Optional.of(user));
 
